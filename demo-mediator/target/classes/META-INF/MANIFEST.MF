@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-Description: demo-mediator
+Bundle-SymbolicName: demo-mediator
+Built-By: anupam
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1617644906997
+Import-Package: org.apache.commons.logging,org.apache.synapse,org.apac
+ he.synapse.mediators
+DynamicImport-Package: *
+Tool: Bnd-1.15.0
+Export-Package: com.anupam;uses:="org.apache.synapse.mediators,org.apa
+ che.commons.logging,org.apache.synapse"
+Bundle-Name: demo-mediator
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_261
+
